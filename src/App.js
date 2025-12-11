@@ -1,8 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import Products from "./pages/Products";
-import Cart from "./pages/Cart";
-import Header from "./components/Header";
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // ✅ Add these imports
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Cart from './pages/Cart';
+import Header from './components/Header';
 
 function App() {
   return (
